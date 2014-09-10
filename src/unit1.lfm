@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 325
+  Height = 237
+  Top = 194
+  Width = 400
+  Caption = 'Conversor de números romanos'
+  ClientHeight = 237
+  ClientWidth = 400
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '0.9.28.2'
+  object Label1: TLabel
+    Left = 48
+    Height = 39
+    Top = 8
+    Width = 305
+    Align = alCustom
+    Alignment = taCenter
+    Caption = 'Digite o número em Romanos ou Decimais'#13#10'na caixa de texto abaixo:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 31
+    Top = 192
+    Width = 314
+    Alignment = taCenter
+    Caption = 'Legenda: (MV) = MV, por exemplo.'#13#10'Esse programa suporta conversão de números até 3.999.999'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 200
+    Height = 16
+    Top = 176
+    Width = 22
+    Caption = '  ___'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 24
+    Top = 120
+    Width = 336
+    Caption = 'Passar de Romanos para Decimais'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 16
+    Height = 50
+    Top = 56
+    Width = 368
+    CharCase = ecUppercase
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -35
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 32
+    Height = 24
+    Top = 152
+    Width = 336
+    Caption = 'Passar de Decimais para Romanos'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+end

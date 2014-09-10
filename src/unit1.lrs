@@ -1,0 +1,28 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3'E'#1#6'Height'#3#237#0#3'Top'#3#194#0#5'W'
+  +'idth'#3#144#1#7'Caption'#6#29'Conversor de n'#195#186'meros romanos'#12'Cli'
+  +'entHeight'#3#237#0#11'ClientWidth'#3#144#1#8'OnCreate'#7#10'FormCreate'#6'O'
+  +'nShow'#7#8'FormShow'#10'LCLVersion'#6#8'0.9.28.2'#0#6'TLabel'#6'Label1'#4'L'
+  +'eft'#2'0'#6'Height'#2''''#3'Top'#2#8#5'Width'#3'1'#1#5'Align'#7#8'alCustom'
+  +#9'Alignment'#7#8'taCenter'#7'Caption'#6'BDigite o n'#195#186'mero em Romano'
+  +'s ou Decimais'#13#10'na caixa de texto abaixo:'#12'Font.CharSet'#7#12'ANSI_'
+  +'CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#240#9'Font.Name'#6#6
+  +'Tahoma'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Pa'
+  +'rentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#2'0'#6'Height'
+  +#2#31#3'Top'#3#192#0#5'Width'#3':'#1#9'Alignment'#7#8'taCenter'#7'Caption'#6
+  +']Legenda: (MV) = MV, por exemplo.'#13#10'Esse programa suporta convers'#195
+  +#163'o de n'#195#186'meros at'#195#169' 3.999.999'#11'ParentColor'#8#0#0#6'T'
+  +'Label'#6'Label3'#4'Left'#3#200#0#6'Height'#2#16#3'Top'#3#176#0#5'Width'#2#22
+  +#7'Caption'#6#5'  ___'#11'ParentColor'#8#0#0#7'TButton'#7'Button1'#4'Left'#2
+  +' '#6'Height'#2#24#3'Top'#2'x'#5'Width'#3'P'#1#7'Caption'#6#31'Passar de Rom'
+  +'anos para Decimais'#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2#0#0#0#5'TEd'
+  +'it'#5'Edit2'#4'Left'#2#16#6'Height'#2'2'#3'Top'#2'8'#5'Width'#3'p'#1#8'Char'
+  +'Case'#7#11'ecUppercase'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
+  +#7'clBlack'#11'Font.Height'#2#221#9'Font.Name'#6#6'Tahoma'#10'Font.Pitch'#7
+  +#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#8'TabOrder'#2
+  +#1#0#0#7'TButton'#7'Button2'#4'Left'#2' '#6'Height'#2#24#3'Top'#3#152#0#5'Wi'
+  +'dth'#3'P'#1#7'Caption'#6#31'Passar de Decimais para Romanos'#7'OnClick'#7#12
+  +'Button2Click'#8'TabOrder'#2#2#0#0#0
+]);
